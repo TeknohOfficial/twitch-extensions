@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    border: 1px solid #ddd; /* Optional: Adds a border around the container */
+    padding: 10px; /* Optional: Adds some spacing around the table */
+    background-color: #fff; /* Optional: Sets a white background for the container */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; /* Sets the table width to 100% of its container */
+    max-width: 600px; /* Optional: Sets a maximum width for the table */
+}
+
+td {
+    width: 20%; /* Divides the table width equally among the 5 columns */
+    height: 50px;
+    border: 1px solid #000;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px; /* Adds some padding inside each cell */
+    text-align: center; /* Centers the text horizontally */
+    vertical-align: middle; /* Centers the text vertically */
+}
+
+@media (max-width: 600px) {
+    td {
+        font-size: 12px; /* Optional: Reduces the font size on smaller screens */
+    }
+}
