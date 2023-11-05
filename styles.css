@@ -7,9 +7,9 @@ body {
 }
 
 .container {
-    border: 1px solid #ddd; /* Optional: Adds a border around the container */
+    border: 1px solid #244ae5; /* Optional: Adds a border around the container */
     padding: 10px; /* Optional: Adds some spacing around the table */
-    background-color: #fff; /* Optional: Sets a white background for the container */
+    background-color: #f82323; /* Optional: Sets a white background for the container */
 }
 
 table {
