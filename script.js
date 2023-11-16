@@ -27,3 +27,7 @@ fetch('/getPhrases')
         }
     })
     .catch(error => console.error('Error fetching phrases:', error));
+document.getElementById('toggleButton').addEventListener('click', function() {
+    var container = document.querySelector('.container');
+    container.classList.toggle('small-view');
+});
